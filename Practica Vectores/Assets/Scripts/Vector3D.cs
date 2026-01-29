@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Vector3D : MonoBehaviour
 {
-    float x;
-    float y;
-    float z;
+    public float x { get; private set; }
+    public float y { get; private set; }
+    public float z { get; private set; }
 
     Vector3D()
     {
